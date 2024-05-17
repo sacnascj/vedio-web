@@ -44,11 +44,6 @@ const constantRouterMap = [
         component: () => import('/@/views/index/usercenter.vue'),
         children: [
           {
-            path: 'addressView',
-            name: 'addressView',
-            component: () => import('/@/views/index/user/address-view.vue')
-          },
-          {
             path: 'countThingView',
             name: 'countThingView',
             component: () => import('/@/views/index/user/thingcc.vue')
@@ -72,16 +67,6 @@ const constantRouterMap = [
             path: 'userInfoEditView',
             name: 'userInfoEditView',
             component: () => import('/@/views/index/user/userinfo-edit-view.vue')
-          },
-          {
-            path: 'followView',
-            name: 'followView',
-            component: () => import('/@/views/index/user/follow-view.vue')
-          },
-          {
-            path: 'fansView',
-            name: 'fansView',
-            component: () => import('/@/views/index/user/fans-view.vue')
           },
           {
             path: 'scoreView',
